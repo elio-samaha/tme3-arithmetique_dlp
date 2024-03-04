@@ -19,6 +19,7 @@ print("---------------------")
 print("Test inverses")
 assert (inv_mod(13, 101) * 13) % 101 == 1
 assert (inv_mod(3, 8) * 3) % 8 == 1
+assert (inv_mod(11,25) == 16)
 
 assert set(invertibles(18)) == set([1, 5, 7, 11, 13, 17])
 assert set(invertibles(7)) == set([1, 2, 3, 4, 5, 6])
